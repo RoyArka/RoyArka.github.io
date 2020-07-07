@@ -1,11 +1,16 @@
+/* CSS for landing page */
+
 /*background color*/
 body 
 {
+    height: 100%;
+    width: 100%;
+    margin: 0;
     background-color: #092438 !important;
 }
 
 /*header*/
-#header
+#ar-logo
 {
     font-family: 'Oswald';
     color: #E9535B;
@@ -22,15 +27,30 @@ body
     font-style: italic;
     font-size: 50px;
     color: #1BEE7D;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 /*contact*/
 #contact
 {
-    font-family: 'Open Sans';
-    font-weight: 400;
     font-size: 20px;
     color: #1BEE7D;
     margin-top: 10%;
 }
+
+/*numbers*/
+#numbered
+{
+    color: #1BEE7D;
+    font-size: 50px;
+    margin-top: 8%;
+}
+
+/*sign-block*/
+#sign-block
+{
+    color: whitesmoke;
+    width: 10rem;
+    margin-top: 4%;
+}
+
