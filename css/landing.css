@@ -1,11 +1,16 @@
+/* CSS for landing page */
+
 /*background color*/
 body 
 {
+    height: 100%;
+    width: 100%;
+    margin: 0;
     background-color: #092438 !important;
 }
 
 /*header*/
-#header
+#ar-logo
 {
     font-family: 'Oswald';
     color: #E9535B;
