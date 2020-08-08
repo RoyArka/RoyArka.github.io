@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Arka Roy: Home</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Custoom CSS -->
+  <link rel="stylesheet" type="text/css" href="css/landing.css">
+  <!-- BootStrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&family=Oswald&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Main Container -->
+  <div id="main-container" class="container-fluid">
+    <!-- Content Section -->
+    <div id="ar-header" class="row justify-content-center mt-5">
+      <span id="ar-logo">ARKA ROY</span>
+    </div>
+    <div id="content" class="text-center mx-auto">
+      <a class="mx-3 text-decoration-none text-reset">PROJECTS</a>
+      <br>
+      <a href="/css/pdf/Master_Resume.pdf" class="mx-3 text-decoration-none text-reset">RESUME</a>
+    </div>
+    <br>
+    <!-- Contact Section -->
+    <div class="row text-center text-monospace text-decoration-none text-reset mt-3">
+      <div class="col-sm-3 col-md-2 ml-auto" id="contact-row">
+        <a href="https://github.com/RoyArka" class="text-reset">GITHUB</a>
+      </div>
+      <div class="col-sm-3 col-md-2" id="contact-row">
+        <a href="https://www.linkedin.com/in/arka-r/" class="text-reset">LINKEDIN</a>
+      </div>
+      <div class="col-sm-3 col-md-2 mr-auto" id="contact-row">
+        <a href="mailto:arkaroy0999@gmail.com" class="text-reset">EMAIL</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row justify-content-center">
+        <!-- Signature Block -->
+        <div id="sign-block" class="text-monospace text-wrap text-center mt-5">
+          <span>Designed & Built by Arka Roy 2020</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- JavaScript -->
+  <script src="js/landing.js"></script>
+  <script src="js/baffle.min.js"></script>
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Popper.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- BootStrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+
+css------------------
+/* CSS for landing page */
+
+/*background color*/
+body 
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-attachment: fixed;
+    background-image: linear-gradient(#092438, #05071C, black);
+}
+
+/*Name*/
+#ar-logo
+{
+    font-family: 'Oswald';
+    color: #E9535B;
+    font-size: 8vw;
+    text-align: center;
+}
+
+/*content*/
+#content
+{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: italic;
+    font-size: 5vw;
+    color: #1BEE7D;
+}
+
+/*contact*/
+#contact-row
+{
+    font-size: 20px;
+    color: #1BEE7D;
+    transition: 
+}
+
+/*sign-block*/
+#sign-block
+{
+    color: whitesmoke;
+    width: 10rem;
+}
+

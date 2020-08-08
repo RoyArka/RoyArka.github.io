@@ -1,46 +1,13 @@
-/* CSS for landing page */
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
 
-/*background color*/
-body 
+
+#particles-js
 {
     height: 100%;
-    width: 100%;
-    margin: 0;
-    background-attachment: fixed;
-    background-image: linear-gradient(#092438, #05071C, black);
+    background: black;
 }
-
-/*Name*/
-#ar-logo
-{
-    font-family: 'Oswald';
-    color: #E9535B;
-    font-size: 8vw;
-    text-align: center;
-}
-
-/*content*/
-#content
-{
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-style: italic;
-    font-size: 5vw;
-    color: #1BEE7D;
-}
-
-/*contact*/
-#contact-row
-{
-    font-size: 20px;
-    color: #1BEE7D;
-    transition: 
-}
-
-/*sign-block*/
-#sign-block
-{
-    color: whitesmoke;
-    width: 10rem;
-}
-
