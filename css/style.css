@@ -1,0 +1,20 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#particles-js
+{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background: black;
+}
+
+
+
