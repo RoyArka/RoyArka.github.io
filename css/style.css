@@ -10,12 +10,21 @@ body
 {
     height: 100%;
     width: 100%;
-    position: fixed;
+    position: absolute;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    z-index: -1;
     background: black;
 }
 
+#main-card
+{
+    background-color: #282828;
+}
 
+#quote
+{
+    color: #C4C4C4;
+}
 
 
