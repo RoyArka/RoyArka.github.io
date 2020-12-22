@@ -1,9 +1,14 @@
-body
+html, body
 {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
+}
+
+.container
+{
+    height: 100%;
 }
 
 #particles-js
@@ -19,12 +24,74 @@ body
 
 #main-card
 {
+    border-radius: 15px;
     background-color: #282828;
+}
+
+#intro
+{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 36px;
+}
+
+#name
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
 }
 
 #quote
 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
     color: #C4C4C4;
 }
 
+.links-landing
+{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 30px;
+}
+
+#back-card
+{
+    position: absolute;
+    width: 380px;
+    height: 600px;
+    left: 320px;
+    top: 128px;
+    background-color: #190061
+}
+
+#gif-card
+{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 155px;
+    top: 337px;
+    background-color: #3500D3;
+}
+
+#projects-button
+{
+    position: absolute;
+    width: 180px;
+    height: 90px;
+    left: 920px;
+    top: 597px;
+    background-color: #3500d3;
+    border-radius: 10px;
+}
+
+#resume-button
+{
+    position: absolute;
+    width: 180px;
+    height: 90px;
+    left: 920px;
+    top: 710px;
+    background-color: #190061;
+    border-radius: 10px;
+}
 
